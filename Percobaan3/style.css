@@ -1,5 +1,4 @@
-/* Mengatur gaya dasar untuk seluruh halaman */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,9 +11,8 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
-    background-color: #333;
+    background-color: #1416a0;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -39,7 +37,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Content */
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -64,7 +62,6 @@ section h2 {
     line-height: 1.6;
 }
 
-/* Portofolio */
 #portofolio div {
     display: flex;
     gap: 15px;
@@ -83,7 +80,6 @@ section h2 {
     transform: scale(1.05);
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: #fff;
