@@ -6,13 +6,13 @@
     <title>TeknoHijau: Pelestarian Hutan Bakau</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-light text-dark">
     <!-- Navbar -->
-    <header>
+    <header class="navbar">
         <div class="container">
-            <h1>TeknoHijau</h1>
+            <h1 class="logo">TeknoHijau</h1>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="#beranda">Beranda</a></li>
                     <li><a href="#tentang">Tentang Kami</a></li>
                     <li><a href="#kontak">Kontak</a></li>
@@ -22,48 +22,51 @@
     </header>
 
     <!-- Beranda -->
-    <section id="beranda" class="container">
+    <section id="beranda" class="beranda-section">
         <h2>Selamat Datang di TeknoHijau</h2>
         <p>Kami menghadirkan inovasi teknologi ramah lingkungan untuk melestarikan hutan bakau dan mendukung masa depan yang berkelanjutan.</p>
-        <div class="grid">
+        <div class="card-container">
             <div class="card">
-                <img src="img/gambar1.jpg" alt="Hutan Bakau">
+                <img src="img/gambar4.jpg" alt="Teknologi Hijau" class="card-img">
                 <h3>Pelestarian Hutan Bakau</h3>
                 <p>Upaya melindungi ekosistem bakau dengan teknologi berbasis data dan analitik lingkungan.</p>
-                <a href="#tentang">Pelajari Lebih Lanjut</a>
+                <a href="#tentang" class="btn">Pelajari Lebih Lanjut</a>
             </div>
             <div class="card">
-                <img src="img/gambar2.jpg" alt="Teknologi Hijau">
+                <img src="img/gambar2.jpg" alt="Teknologi Hijau" class="card-img">
                 <h3>Teknologi Hijau</h3>
                 <p>Solusi teknologi untuk mencegah degradasi lingkungan dan mendukung keberlanjutan hutan bakau.</p>
-                <a href="#tentang">Pelajari Lebih Lanjut</a>
+                <a href="#tentang" class="btn">Pelajari Lebih Lanjut</a>
             </div>
             <div class="card">
-                <img src="img/gambar3.jpg" alt="Peningkatan Kesadaran">
+                <img src="img/gambar3.jpg" alt="Peningkatan Kesadaran" class="card-img">
                 <h3>Peningkatan Kesadaran</h3>
                 <p>Edukasi masyarakat tentang pentingnya ekosistem hutan bakau untuk kehidupan yang lebih baik.</p>
-                <a href="#tentang">Pelajari Lebih Lanjut</a>
+                <a href="#tentang" class="btn">Pelajari Lebih Lanjut</a>
             </div>
         </div>
     </section>
 
     <!-- Tentang Kami -->
-    <section id="tentang" class="container">
-        <h2>Tentang Kami</h2>
-        <p>TeknoHijau adalah inisiatif yang bertujuan melestarikan ekosistem hutan bakau dengan memanfaatkan teknologi modern.</p>
-        <h3>Visi dan Misi</h3>
-        <p>Visi kami adalah menciptakan dunia yang lebih hijau melalui pelestarian hutan bakau. Misi kami adalah mengedukasi masyarakat, mengembangkan teknologi hijau, dan mendorong kolaborasi global untuk mendukung keberlanjutan.</p>
-        <h3>Pemahaman dalam Merawat dan Menanam Hutan Bakau</h3>
-        <p>Kami menyediakan informasi dan pelatihan untuk membantu masyarakat memahami pentingnya menjaga hutan bakau. Langkah-langkah seperti menanam bakau di area pesisir, menjaga kualitas air, dan mencegah penebangan liar adalah bagian dari upaya kami dalam mendukung keberlanjutan.</p>
-        <h3>Teknologi Hijau di TeknoHijau</h3>
-        <p>Kami mengembangkan teknologi yang mendukung pelestarian lingkungan, seperti penggunaan drone untuk pemantauan area bakau, analitik data untuk deteksi kerusakan, dan aplikasi edukasi berbasis teknologi untuk meningkatkan kesadaran masyarakat.</p>
+    <section id="tentang" class="container mx-auto p-6 my-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-4xl font-bold text-green-700 text-center">Tentang Kami</h2>
+        <p class="mt-4 text-lg text-center">TeknoHijau adalah inisiatif yang bertujuan melestarikan ekosistem hutan bakau dengan memanfaatkan teknologi modern.</p>
+        <div class="mt-8">
+            <h3 class="text-2xl font-semibold text-green-700">Visi dan Misi</h3>
+            <p class="mt-4">Visi kami adalah menciptakan dunia yang lebih hijau melalui pelestarian hutan bakau. Misi kami adalah mengedukasi masyarakat, mengembangkan teknologi hijau, dan mendorong kolaborasi global untuk mendukung keberlanjutan.</p>
+            <h3 class="text-2xl font-semibold text-green-700 mt-8">Pemahaman dalam Merawat dan Menanam Hutan Bakau</h3>
+            <p class="mt-4">Kami menyediakan informasi dan pelatihan untuk membantu masyarakat memahami pentingnya menjaga hutan bakau. Langkah-langkah seperti menanam bakau di area pesisir, menjaga kualitas air, dan mencegah penebangan liar adalah bagian dari upaya kami dalam mendukung keberlanjutan.</p>
+            <h3 class="text-2xl font-semibold text-green-700 mt-8">Fungsi Hutan Bakau bagi Kehidupan Ekosistem</h3>
+            <p class="mt-4">Hutan bakau memiliki peran penting dalam menjaga keseimbangan ekosistem pesisir. Akar-akar bakau yang kuat melindungi pantai dari abrasi dan erosi, serta menyediakan habitat bagi berbagai spesies seperti ikan, udang, dan burung. Selain itu, hutan bakau membantu menyerap karbon dioksida dalam jumlah besar, sehingga berkontribusi pada mitigasi perubahan iklim. Tanaman bakau juga bertindak sebagai penyaring alami untuk menjaga kualitas air di sekitarnya, mendukung kesehatan lingkungan dan komunitas yang bergantung padanya.</p>
+            <h3 class="text-2xl font-semibold text-green-700 mt-8">Teknologi Hijau di TeknoHijau</h3>
+            <p class="mt-4">Kami mengembangkan teknologi yang mendukung pelestarian lingkungan, seperti penggunaan drone untuk pemantauan area bakau, analitik data untuk deteksi kerusakan, dan aplikasi edukasi berbasis teknologi untuk meningkatkan kesadaran masyarakat.</p>
+        </div>
     </section>
 
     <!-- Kontak -->
-    <section id="kontak" class="container">
+    <section id="kontak" class="contact-section">
         <h2>Hubungi Kami</h2>
-        <p>Ingin tahu lebih banyak? Hubungi kami melalui formulir berikut.</p>
-        <form action="#" method="POST">
+        <form action="#" method="POST" class="contact-form">
             <label>
                 <span>Nama</span>
                 <input type="text" name="nama" required>
@@ -76,12 +79,12 @@
                 <span>Pesan</span>
                 <textarea name="pesan" rows="4" required></textarea>
             </label>
-            <button type="submit">Kirim</button>
+            <button type="submit" class="btn">Kirim</button>
         </form>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <p>&copy; 2024 TeknoHijau: Pelestarian Hutan Bakau. Semua Hak Dilindungi.</p>
     </footer>
 </body>

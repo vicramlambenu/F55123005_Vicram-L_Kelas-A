@@ -1,4 +1,3 @@
-/* General Settings */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,6 +5,11 @@ body {
     padding: 0;
     background-color: #f0fdf4; /* Warna hijau muda */
     color: #333;
+    
+    background-image: url('img/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Navbar */
@@ -51,10 +55,36 @@ section {
     padding: 2rem 1rem;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Gaya untuk container card */
+.card-container {
+    display: flex;
+    justify-content: space-between; /* Memberi jarak antar kartu */
+    gap: 20px; /* Memberi jarak antar kartu */
+    flex-wrap: wrap; /* Membuat kartu tetap responsif saat ukuran layar kecil */
 }
+
+/* Gaya untuk card */
+.card {
+    flex: 1 1 calc(33.333% - 20px); /* Menyusun 3 kartu dalam satu baris */
+    box-sizing: border-box; /* Memastikan padding dan margin tidak mengubah ukuran total */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Gaya untuk gambar di dalam card */
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Memastikan gambar mengisi area kartu dengan proporsi yang tepat */
+}
+
+
+
 
 /* Beranda */
 #beranda {
@@ -82,12 +112,12 @@ section {
     padding: 1rem;
     text-align: center;
 }
-
-.card img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
 }
+
 
 .card h3 {
     color: #047857;
@@ -116,6 +146,10 @@ section {
     padding: 2rem;
     margin: 2rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#kontak {
+    color: white;
 }
 
 #tentang h2 {
